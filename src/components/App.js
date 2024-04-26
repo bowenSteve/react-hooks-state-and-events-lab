@@ -14,7 +14,7 @@ const [isDark,setIsDark]=useState(false)
     <div className={appClass}>
       <header>
         <h2>Shopster</h2>
-        <button onClick={handleDarkMode}>{isDark?"Light Mode":"Dark Mode"}</button>
+        <button onClick={handleDarkMode}>{isDark?"Dark Mode":"Light Mode"}</button>
       </header>
       <ShoppingList items={itemData} />
     </div>
